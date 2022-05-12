@@ -1,0 +1,53 @@
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+   }
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+   }
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+   }
+   h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, arial, sans-serif;
+    text-align: center;
+   }
+   h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, arial, sans-serif;
+    text-align: center;
+   }
+   herf {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, arial, sans-serif;
+    text-align: center;
+   }
+   .p1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, arial, sans-serif; 
+    background-color: rgb(211, 62, 62);
+     color : black;
+   }
+   .p2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, arial, sans-serif; 
+    background-color: rgb(221, 221, 44);
+     color : black;
+   }
+   jumbotron{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, arial, sans-serif; 
+    background-color: red;
+    color : yellow;
+   }
+   .form-control{
+    background-color: red;
+    color : yellow;
+   }
+   .navbar navbar-expand-lg navbar-light bg-light{
+    background-color: red;
+    color : black;
+   }
+   .card-body text-center{
+       background-color: yellow;
+   }

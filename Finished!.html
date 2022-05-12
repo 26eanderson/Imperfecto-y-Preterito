@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Imperfecto y Preterito</title>
+  <!-- Added link to the jQuery Library -->
+  <script type='text/javascript' src='index.js'></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body class = "p1">
+  <div class="jumbotron" class = "p2">
+    <div id="empty-div"></div>
+    <a href="index.html" class="btn btn-light btn-lg active" class="one" role="button" aria-pressed="true">Back to Start</a>
+    <h1 class="text-center">Juego terminado</h1>
+    <h2 class="text-center">Preterito o Imperfecto</h2>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card mb-2">
+          <h3 class="card-header">Puntuaciones finales
+          </h3>
+          <div class="card-body text-center">
+            <div class="col-md-4">
+              <img class="img img-thumbnail" src="placeholder.jpg">
+            </div>
+            <div class="col-md-4">
+              <img class="img img-thumbnail" src="placeholder.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    document.addEventListener("keypress", function(event) {
+
+      var targetDiv = document.getElementById("empty-div");
+
+    if (event.keyCode == KeyI) {
+			targetDiv.textContent = "corecto!";
+      
+		}
+    else if(event.keyCode == KeyP) {
+			targetDiv.textContent = "incorecto!";
+		}
+  });
+    </script>
+  </script>
+</body>
+</html>

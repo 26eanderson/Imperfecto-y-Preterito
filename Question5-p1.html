@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Imperfecto y Preterito</title>
+  <!-- Added link to the jQuery Library -->
+  <script type='text/javascript' src='index.js'></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body class = "p1">
+  <div class="jumbotron" class = "p2">
+    <span><a href="index.html" class="btn btn-light btn-lg active" class="one" role="button" aria-pressed="true">Back to Start</a>
+    <div id="empty-div"></div></span>
+    <h1 class="text-center">Pregunta 5</h1>
+    <h2 class="text-center">Jugador Uno</h2>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card mb-2">
+          <h3 class="card-header">Juan used to have a cell phone.
+          </h3>
+          <div class="card-body text-center">
+            <h3>P.  Preterito</h3>
+            <h3>I.  Imperfecto</h3>
+            <a href="Question5-p2.html" class="btn btn-success btn-lg active btn-lg btn-block" role="button" aria-pressed="true">Pregunta Siguiente</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      document.addEventListener("keypress", function(event) {
+  
+      var targetDiv = document.getElementById("empty-div");
+      var x = event.key;
+  
+  // If the pressed keyboard button is "a" or "A" (using caps lock or shift), alert some text.
+  
+      if (x == "i" || x == "I") {
+        targetDiv.textContent = "corecto!";
+        player1 = player1 + 1
+        console.log("i")
+        console.log(player1)
+      }
+      if (x == "p" || x == "P") {
+        targetDiv.textContent = "incorecto!";
+        console.log("p")
+      }
+    });
+      </script>
+</body>
+</html>
